@@ -4,7 +4,7 @@ lst = { '[':'a', ']':'A',  '(':'b',  ')':'B',  '{':'c', '}':'C' }
 arr = [ lst[el] for el in ckeck if el in lst.keys() ]
 
 
-flag = 0
+flag = 0 
 while True:
     i = 2
     if arr == [] :
